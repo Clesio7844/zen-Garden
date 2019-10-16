@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 620px;
+}
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-size: 36px;
+    text-shadow: 2px 5px #070606;
+    text-transform: uppercase;
+}
+
+
+
+ h2{
+    
+    color: aliceblue;
+    font-family: 'Satisfy', cursive;
+    font-size: 15px;
+    
+
+    
+  
+}
+
+h3{
+    color: black;;
+}
+
+header {
+    background-image: url(../img/huntington.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+    text-align: center;
+    
+}
+
+.summary, .preamble, .explanation, .participation p, .benefits, .requirements {
+    margin: 40px;
+}
+
+
+.participation, .benefits{
+    background-image: url(../img/bamboo.png);
+    background-color: rgb(163, 187, 162);
+    color: white
+}
+
+[role = contentinfo]{
+  font-size: 20px;
+  background-color: rgb(163, 187, 162);
+  margin-bottom: 0;
+  height: 40px;
+}
+
+footer{
+    background-color: rgb(163, 187, 162);
+    margin-top: -40px;
+    
+
+
+}
+
+
+
